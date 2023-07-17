@@ -11,6 +11,11 @@ body {
     min-height: var(--line-height-base);
 }
 
+a {
+    color: #161616;
+    text-decoration: none;
+}
+
 .visually-hidden {
     display: none;
 }
@@ -74,25 +79,8 @@ body {
     color: var(--color-primary);
 }
 
-/*body, a {
+body, a {
     color: var(--text-color);
-}*/
-
-a:link {
-  text-decoration: none;
-  color: var(--text-color);
-}
-
-a:visited {
-  font-style: italic;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  background-color: var(--color-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {
