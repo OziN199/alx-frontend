@@ -14,6 +14,9 @@ body {
   .card-category {
     color: #D73953;
   }
+.section-header {
+  text-align: var(--section-header-align);
+}
   .section-tagline {
     color-primary: #D73953;
   }
@@ -75,8 +78,4 @@ body {
 }
 :root {
   --section-header-align: center;
-}
-
-.section-header {
-  text-align: var(--section-header-align);
 }
