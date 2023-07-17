@@ -8,9 +8,6 @@ body {
     text-color: #161616;
     text-decoration: none;
   }
-:root {
-  --section-tagline-transform: uppercase;
-}
   .visually-hidden {
     display: none;
   }
@@ -22,9 +19,6 @@ body {
 }
   .section-tagline {
     color-primary: #D73953;
-    font-family: font-family-title;
-    text-transform: var(--section-tagline-transform);
-    font-weight: font-weight-bold;
   }
 :root {
   --color-primary: #d73953;
@@ -84,4 +78,13 @@ body {
 }
 :root {
   --section-header-align: center;
+}
+:root {
+  --section-tagline-transform: uppercase;
+}
+
+.section-tagline {
+  font-family: font-family-title;
+  text-transform: var(--section-tagline-transform);
+  font-weight: font-weight-bold;
 }
