@@ -8,6 +8,9 @@ body {
     text-color: #161616;
     text-decoration: none;
   }
+:root {
+  --section-tagline-transform: uppercase;
+}
   .visually-hidden {
     display: none;
   }
@@ -81,7 +84,4 @@ body {
 }
 :root {
   --section-header-align: center;
-}
-:root {
- --section-tagline-transform: uppercase;
 }
